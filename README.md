@@ -34,9 +34,15 @@ The dataset contains historical booking information including:
    - ROC-AUC
 
 ## Results
-The best-performing model was Random Forest / Gradient Boosting (update with your actual result), achieving:
-- Accuracy: XX%
-- ROC-AUC: XX
+
+The best-performing model was **Logistic Regression**, achieving:
+
+- **Accuracy:** 86.5%
+- **ROC-AUC:** 0.860
+- **Macro F1-score:** 0.85
+- **Weighted F1-score:** 0.86
+
+The model correctly identifies 90% of non-cancellations and 79% of cancellations, demonstrating strong discriminatory power and balanced performance across classes.
 
 ## Tech Stack
 - Python
