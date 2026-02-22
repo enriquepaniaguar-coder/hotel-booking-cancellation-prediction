@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data / models / outputs
+data/
+outputs/
+*.pkl
+*.joblib
+*.csv
+*.xlsx
