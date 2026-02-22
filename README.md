@@ -44,6 +44,28 @@ The best-performing model was **Logistic Regression**, achieving:
 
 The model correctly identifies 90% of non-cancellations and 79% of cancellations, demonstrating strong discriminatory power and balanced performance across classes.
 
+## Key Results (Visuals)
+
+### ROC Curve – Model Comparison
+![ROC Curve](outputs/figures/roc_curve.png)
+
+Logistic Regression achieved the highest ROC-AUC (0.860), outperforming Decision Tree (0.847).
+
+---
+
+### Confusion Matrix – Best Model
+![Confusion Matrix](outputs/figures/confusion_matrix.png)
+
+---
+
+### Top Feature Importances
+![Feature Importance](outputs/figures/feature_importance.png)
+
+---
+
+### Feature Correlation Matrix
+![Correlation Matrix](outputs/figures/correlation_matrix.png)
+
 ## Tech Stack
 - Python
 - pandas
